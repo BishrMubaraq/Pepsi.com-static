@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+.bg{
+    background-color: #0065c3;
+    width: 100%;
+}
+.header-list{
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: 15px 34px;
+    padding: 0;
+    list-style: none;
+    
+}
+.pepsi-logo-header{
+    opacity: 1;
+    margin-right: 4rem;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    
+}
+.header-list-items{
+    float: left;
+    margin-right: 2.75rem;
+    font-size: .875rem;
+    cursor: pointer;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: color 0.15s;
+}
+.header-list-items:hover{
+    color: #78a7d3;
+}
+.header-cta-btn{
+    margin: auto;
+    margin-right: 0;
+}
+.cta-btn{
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 6px 20px;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color .1s ,color .1s;
+}
+.cta-btn:hover{
+    background-color: #fff;
+    color: #0065c3;
+}
+
+section{
+    position: relative;
+    padding: 0;
+}
+.nitro-container-bg{
+    position: absolute;
+    width: 100%;
+    height: 150vh;
+    z-index: -3;    
+    
+}
+.nitro-div{
+    display: inline-block;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.nitro-img{
+    width: 90%;
+}
+.nitro-text{
+    padding-top: 90px;
+    width: 100%;
+}
+.nitro-text-text{
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    padding: 12px 0 20px;
+    text-align: center;
+}
+.nitro-btn{
+    margin-left: 155px;
+    
+}
+.pepsi-zero-sugar-container{
+    background: rgb(0,0,0);
+    background: linear-gradient(183deg, rgba(0,0,0,1) 66%, rgba(27,27,27,1) 85%, rgba(30,30,30,1) 100%);
+}
+.pepsi-zero-sugar{
+    display: inline-block;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.zero-sugar-left-text{
+    padding-top: 50px;
+    width: 90%;
+}
+.zero-sugar-video{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.third-section{
+    display: flex;
+    flex-direction: row;
+
+}
+.left-third-section{
+    display: inline-block;
+}
+
+
+.left-third-section-container{
+    padding: 24px;
+    background-color: #265cc5;
+}
+.video-section{
+    position: relative;
+    margin-top: 40px;
+   
+}
+.upper-video{
+    width: 100%;
+    margin-bottom: -5px;
+}
+.video-text{
+    background-color: #1d7fdb;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+}
+.right-third-section{
+background-image: url("https://www.pepsi.com/en-us/uploads/images/better-with-pepsi/PEP_BWP_D@2x.jpg");
+background-repeat: no-repeat;
+background-color: #265cc5;
+background-position: center;
+
+}
+.text-over-img{
+    width: 70%;
+    float: right;
+    margin-top: 70%;
+}
+.pepsi-video{
+    width: 100%;
+    height: 100%;
+    border-bottom: 8px solid black;
+}
+.promotion-2{
+    background-image: url("https://www.pepsi.com/en-us/uploads/images/twil-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    margin-top: -5px;
+    display: flex;
+    flex-direction: row;
+
+}
+.promotion-2-img{
+    display: inline-block;
+    width: 100%;
+    margin-top: 80px;
+    
+}
+.promotion-2-text{
+    display: inline-block; 
+    width: 80%; 
+    margin-top: 180px;
+    margin-left: 50px;
+}
+.vp{
+    background-color: #0065c3;
+    background-image: url("https://www.pepsi.com/en-us/uploads/04_Generation_BG_D_2.png?mtime=20181217151706");
+}
+.vp-div{
+    display: flex;
+}
+.vp-left-text{
+    padding: 80px;
+    color: #fff;
+}
+.vp-heading{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+.vp-right-img{
+    padding: 80px;
+}
+.vp-img{
+    margin-top: 30px;
+    
+    width: 100%;
+}
+.vp-para{
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+footer{
+    background-color: #0d6dc7;
+}
+.footer-container{
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer__linklist{
+    list-style: none;
+    column-count: 3;
+    column-gap: 4;
+}
+.footer__link-itemlink{
+    list-style: none;
+    display: list-item;
+    margin-left: 50px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.15s;
+
+}
+.footer__link-itemlink:hover{
+    color: #78a7d3;
+}
+.footer-btns{
+    margin-left: 70px;
+    
+}
